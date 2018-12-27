@@ -1,0 +1,11 @@
+textarea {
+    border: none;
+    width: 87%;
+    padding: 10px 6px;
+    border-radius: 10px;
+    height: 120px;
+}
+
+.area-container {
+    margin-bottom: 20px;
+}
