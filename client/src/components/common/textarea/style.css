@@ -1,9 +1,12 @@
 textarea {
     border: none;
-    width: 87%;
-    padding: 10px 6px;
-    border-radius: 10px;
-    height: 120px;
+    width:50%;
+    text-transform: capitalize;
+    padding-left:20px;
+    resize: vertical;
+    padding-top: 10px;
+    border-radius: 5px;
+    height: 40px;
 }
 
 .area-container {

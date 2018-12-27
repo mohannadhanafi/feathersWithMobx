@@ -33,14 +33,17 @@ number of items is
             {/* Numbers of item from store */}
             <span>{store.numberOfItems}</span>
           </h2>
-          <ul>
+          <ul className="list">
             {store.itemList.map(value => (
               <div onClick={() => store.specificItem(value.id)} className="item" key={value.id}>
-                <h3>
+                <h4 className="list-item">
                   {value.name}
-                </h3>
+                </h4>
               </div>))}
           </ul>
+          <div className="footer">
+            <address>mohanned al-hanafi</address>
+          </div>
         </div>
         <div className="entry-form">
           <div className="form-1">
@@ -57,7 +60,7 @@ number of items is
               name="desc"
               onChange={event => store.onChange(event)}
             />
-            <Button value="Add Item" onClick={this.addItem} />
+            <Button value="Add" onClick={this.addItem} />
           </div>
           <hr />
           <div className="description">
