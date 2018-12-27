@@ -2,13 +2,17 @@ label {
     display: block;
     margin-right: 175px;
     margin-bottom: 10px;
+    color: #7A7575;
 }
 
 input {
     border: none;
-    width: 87%;
-    padding: 10px 6px;
-    border-radius: 10px;
+    width: 25%;
+    height: 40px;
+    text-transform: capitalize;
+    padding-left:20px;
+    border-radius: 5px;
+    color: #7A7575;
 }
 .input-container {
     margin-bottom: 20px;

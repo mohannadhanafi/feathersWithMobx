@@ -1,51 +1,89 @@
-.item {
-    border-bottom: 1px solid;
-    margin: 30px 0;
-    cursor: pointer;
-}
-
-.item h3:hover {
-    color: #bebebe;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .sidebar {
-    background-color: #1E2021;
-    color: #7A7575;
-    height: 100%;
+    background: #1E2021;
+    height: 100vh;
+    color: #999999;
+    overflow-y: scroll;
 }
 
 .sidebar h2 {
-    margin: 0;
-    padding: 30px 0 25px;
-    background-color: #282C32;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 120px;
+    display: flex;
+    color: #999999;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    background: #282C32;
     font-weight: 100;
 }
-
-.sidebar span {
-    display: block;
+.sidebar h2 span {
+    color: #9d6c48;
     font-weight: bold;
-    margin-top: 15px;
 }
 
-ul {
-    padding: 0
+.list{
+    text-align: left;
+    line-height: 3;
 }
+
+.list-item{
+    padding-left: 20px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    transition: all ease-in 0.5s;
+}
+.active{
+    background: #9d6c487d;
+}
+
+.list-item:hover{
+    text-indent: 15px;
+    cursor: pointer;
+    color: #9d6c48;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding: 20px 50px;
+    border-top: #999999 solid 2px;
+    background: #1E2021;
+}
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #999999;
+}
+ ::-webkit-scrollbar-thumb {
+    background: #9d6c487d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #9d6c48;
+} 
+
+/* __________     END SIDE     __________*/
 
 .entry-form {
     background-color: #E5E9EE;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
+    display: grid;
+    grid-template-columns: 100%;
 }
 
 .form-1 {
     text-align: left;
     margin: 33px 0 0 61px;
 }
-
 hr {
     margin: 0 auto;
     width: 88%;
-    margin-top: 23px;
     height: 4px;
     background-color: #9D6C48;
     border: none;

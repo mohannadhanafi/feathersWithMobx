@@ -1,12 +1,16 @@
 .button {
-    background-color: #9D6C48;
+    background: #9D6C48;
     color: #FFF;
     border: none;
     font-weight: bold;
+    text-transform: uppercase;
     border-radius: 5px;
-    padding: 10px 114px;
+    padding: 10px;
+    display: block;
+    margin-left: 80%;
+    height: 40px;
     font-size: 20px;
-    width: 857px;
+    width: 100px;
     cursor: pointer;
 }
 .button:hover {
